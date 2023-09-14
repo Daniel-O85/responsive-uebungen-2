@@ -1,0 +1,47 @@
+@media screen and (max-width: 799px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: rgba(5, 5, 111, 0.516);
+    }
+
+    main p,
+    main div table tr td {
+        color: white;
+        text-shadow: 5px 5px 5px black;
+        font-size: 30px;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    main img {
+        border: groove white 10px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+    main .bmw p {
+        border-bottom: solid 1px white;
+        padding-bottom: 80px;
+    }
+
+    .infokontakt {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main table {
+        margin: 20px;
+    }
+
+    main .infokontakt table tr td {
+        padding: 5px;
+    }
+
+    main div h1 {
+        color: white;
+        text-shadow: 5px 5px 5px black;
+    }
+}

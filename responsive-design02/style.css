@@ -1,0 +1,78 @@
+html {
+    background-image: url(../bilder/htmlback.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header {
+    font-size: 30px;
+    background-color: white;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+}
+
+header .head1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header .head2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    padding: 20px;
+
+}
+
+main img {
+    width: 500px;
+}
+
+main .audi p,
+main .benz p,
+main .bmw p {
+    width: 500px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+footer p {
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+}
+
+footer p::-webkit-scrollbar {
+    display: none;
+}
+
+footer .footimg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+}
+
+footer img {
+    width: 50px;
+    margin: 20px;
+}
+
+footer .footable {
+    line-height: 30px;
+    font-size: 20px;
+}

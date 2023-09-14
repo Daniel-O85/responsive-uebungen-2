@@ -1,0 +1,50 @@
+@media screen and (min-width: 800px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        background-color: rgba(255, 255, 255, 0.916);
+    }
+    main p{
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    main img {
+        border: groove rgba(5, 5, 111, 0.516) 10px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+    main .audi,
+    main .auto,
+    main .infouberuns {
+        grid-column-start: 2;
+    }
+
+    main .benz,
+    main .motorrad,
+    main .infotable1 {
+        grid-row-start: 2;
+    }
+
+    main .bmw,
+    main .fahrrad,
+    main .infotable2 {
+        grid-row-start: 2;
+        grid-column-start: 3;
+    }
+
+    main .suvtext,
+    main .infokontakt .infodisc,
+    main .infodisc {
+        grid-row-start: 3;
+        grid-column-end: span 3;
+    }
+
+    main .scooter {
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+}
